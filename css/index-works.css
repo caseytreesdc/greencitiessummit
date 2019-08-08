@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700|Merriweather:400,400i');
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    color: #818181;
+    text-align: center;
+}
+
+p.subtext {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 3em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+p.maintext {
+    max-width: 700px;
+    margin: 1em auto;
+}
+
+header.clearfix.index {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .7)), url(images/aerial-dc.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+header.clearfix hr {
+    border: none;
+    border-top: 4px solid #EECC35;
+    width: 88px;
+    margin: 35px auto;
+}
+
+header.clearfix.index .container.content {
+    padding-top: 12vh;
+}
+
+header.clearfix h1 {
+    color: #fff;
+    text-align: center;
+    padding: 0 25px;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+
+header.clearfix p {
+    color: #fff;
+    text-align: left;
+    font-size: 1.74em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+
+header.clearfix .call-to-action {
+    text-align: center;
+    padding-top: 8vh
+}
+
+header.clearfix button.btn.btn-outline-light {
+    padding: 20px;
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    border: solid 5px #fff;
+    letter-spacing: 2px;
+    border-radius: 0px;
+}
+
+.container.content.featured-developments {
+    padding-top: 2.7em;
+}
+
+.container.content.featured-developments .col-xl-4.col-lg-6.col-md-12.col-sm-12 {
+    margin-bottom: 22px;
+}
+
+.container.content.featured-developments hr {
+    border: none;
+    border-top: 4px solid #006836;
+    width: 88px;
+    margin: 35px auto;
+}
+
+.card-content {
+    background-color: #373737;
+    overflow: auto;
+    color: #fff;
+    font-size: .7em;
+}
+
+.photo {
+    float: left;
+    width: 160px;
+    height: 120px;
+    background-image: url("images/aerial-dc.png");
+    background-size: cover;
+}
+
+img.development-thumb {
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.text {
+    float: left;
+    padding: 5px 10px 0 10px;
+    max-height: 120px;
+    max-width: 160px;
+}
+
+.date {
+    position: absolute;
+    bottom: -10px;
+    color: #92CFE1;
+}
+
+.date p {
+    font-size: 11px;
+}
+
+.development-type {
+    position: absolute;
+    top: 16px;
+}
+
+.development-type p {
+    color: rgba(250, 250, 250, .5);
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.development-title a {
+    color: #fff;
+}
+
+.development-title {
+    position: absolute;
+    top: 40px;
+    max-width: 160px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+footer {
+    height: 4em;
+    background-color: #373737;
+    margin-top: 2em;
+    padding: 20px;
+}
+
+footer.p {
+    font-family: 'lato', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    header.clearfix p {
+        font-size: 1.5em;
+    }
+    header.clearfix h1 {
+        font-size: 2.8em;
+    }
+    header.clearfix .container.content {
+        padding-top: 10vh;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    header.clearfix p {
+        font-size: 1.3em;
+    }
+    header.clearfix h1 {
+        font-size: 2.8em;
+    }
+    header.clearfix .container.content {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+}
