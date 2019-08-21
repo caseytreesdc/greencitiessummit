@@ -401,9 +401,9 @@ header .container {
     width: 100px;
 }
 
-/*.action-content.sponsor:hover {
+.action-content.sponsor:hover {
     cursor: pointer;
-}*/
+}
 
   .action-label {
       background: #333;
