@@ -2,7 +2,7 @@
   @import url('https://use.typekit.net/ilj2qjl.css');
   
   
-  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, tr, td {
       font-family: 'Lato', sans-serif;
   }
 
@@ -456,7 +456,40 @@ header .container {
         .action-label.four {animation: MoveUpDownR 2.3s 1.2s ease infinite; background-color:#9cd3e4;}
         header.clearfix h1 { font-weight: 800;}
 
-    .card {box-shadow: none; webkit-box-shadow: none;}
+  .card {box-shadow: none; webkit-box-shadow: none;}
+
+  /* AGENDA */
+
+  .sessiongroup {
+    background-color: #049948;
+    color: #fff;
+}
+
+tr.sessiongroup td {
+    font-family: 'lato', sans-serif;
+    font-weight: 600 !important;
+
+}
+
+tr.sessiongroup td h4 {
+    padding: 0;
+    color: #fff;
+}
+
+.sessiontype {
+    background-color: rgba(4, 153, 72, .15);
+}
+
+.session {
+    text-align: left;
+}
+
+
+
+
+
+
+}
 
 
         @keyframes MoveUpDownR {
